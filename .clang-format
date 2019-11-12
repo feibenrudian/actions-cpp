@@ -1,0 +1,14 @@
+BasedOnStyle: LLVM
+
+Language: Cpp
+AlignTrailingComments: false
+AllowShortFunctionsOnASingleLine: Inline
+BreakBeforeBinaryOperators: true
+BreakBeforeBraces: Stroustrup
+BreakBeforeTernaryOperators: true
+BreakConstructorInitializersBeforeComma: 'true'
+ColumnLimit: 128
+DerivePointerAlignment: 'false'
+IndentCaseLabels: 'false'
+IndentWidth: 4
+PointerAlignment: Left
