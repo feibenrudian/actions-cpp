@@ -10,7 +10,7 @@ message("DEBUG XXX: ${CMAKE_MODULE_PATH}")
 #include(${CMAKE_SOURCE_DIR}/conanbuildinfo.cmake)
 #conan_basic_setup()
 
-find_package(gtest REQUIRED)
+find_package(GTest REQUIRED)
 
 aux_source_directory(src ALL_SOURCES)
 
