@@ -8,6 +8,8 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+    - name: pip
+      run: pip install conan -y
     - uses: actions/checkout@v1
     - name: conan
       run: conan install .
