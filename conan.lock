@@ -4,15 +4,15 @@
   "nodes": {
    "0": {
     "pref": null,
-    "options": "gtest:build_gmock=True\ngtest:fPIC=True\ngtest:hide_symbols=False\ngtest:no_main=False\ngtest:shared=True",
+    "options": "gtest:build_gmock=True\ngtest:fPIC=True\ngtest:hide_symbols=False\ngtest:no_main=False\ngtest:shared=False",
     "requires": {
      "gtest/1.10.0#0": "1"
     },
     "path": "/Users/lijun/src/thoughtworks/conan/template/conanfile.txt"
    },
    "1": {
-    "pref": "gtest/1.10.0#0:09e99ac43439f7364d9a601827edb187f83f9bcc#0",
-    "options": "build_gmock=True\nfPIC=True\nhide_symbols=False\nno_main=False\nshared=True"
+    "pref": "gtest/1.10.0#0:aafb7f47234990db9077ed87e3f6c6c9c0e84a95#0",
+    "options": "build_gmock=True\nfPIC=True\nhide_symbols=False\nno_main=False\nshared=False"
    }
   }
  },
