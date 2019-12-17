@@ -4,6 +4,7 @@ project(money)
 
 set(CMAKE_CXX_STANDARD 17)
 
+message("DEBUG XXX: ${CMAKE_MODULE_PATH}")
 #set(CMAKE_MODULE_PATH ${CMAKE_BINARY_DIR} ${CMAKE_MODULE_PATH})
 
 #include(${CMAKE_SOURCE_DIR}/conanbuildinfo.cmake)

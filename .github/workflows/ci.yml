@@ -22,7 +22,7 @@ jobs:
     - name: cmake
       run: |
         pwd
-        ls -l /home/runner/.conan/data/gtest/1.10.0/_/_/package/09e99ac43439f7364d9a601827edb187f83f9bcc/
+        ls -l
         cat conan_paths.cmake
         cmake . -DCMAKE_TOOLCHAIN_FILE=conan_paths.cmake
         cmake . --build && ctest --output-on-failure
