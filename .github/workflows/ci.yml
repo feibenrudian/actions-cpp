@@ -18,10 +18,8 @@ jobs:
     - name: conan
       run: |
         conan install . --lockfile
-        ls -l
     - name: cmake
       run: |
-        pwd
-        cat conan_paths.cmake
         cmake . -DCMAKE_TOOLCHAIN_FILE=conan_paths.cmake
-        cmake . --build && ctest --output-on-failure
+        cmake --build .
+        ctest --output-on-failure
