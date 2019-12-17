@@ -10,3 +10,4 @@ gtest:shared=True
 
 [imports]
 lib, *.dylib* -> ./
+lib, *.so* -> ./
