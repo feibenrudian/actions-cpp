@@ -9,7 +9,7 @@ jobs:
 
     steps:
     - name: pip
-      run: pip install conan -y
+      run: pip install conan
     - uses: actions/checkout@v1
     - name: conan
       run: conan install .
