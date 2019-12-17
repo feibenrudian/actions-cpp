@@ -4,10 +4,3 @@ gtest/1.10.0
 [generators]
 cmake_find_package
 cmake_paths
-
-[options]
-gtest:shared=True
-
-[imports]
-lib, *.dylib* -> ./
-lib, *.so* -> ./
