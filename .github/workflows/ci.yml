@@ -16,7 +16,7 @@ jobs:
         pip install conan_package_tools
     - uses: actions/checkout@v1
     - name: conan
-      run: conan install .
+      run: conan install . --lockfile
     - name: cmake
       run: |
         cmake . -DCMAKE_TOOLCHAIN_FILE=conan_paths.cmake && cmake . --build && ctest --output-on-failure
