@@ -22,8 +22,6 @@ jobs:
     - name: cmake
       run: |
         pwd
-        ls -l
-        cat FindGTest.cmake
         cat conan_paths.cmake
         cmake . -DCMAKE_TOOLCHAIN_FILE=conan_paths.cmake
         cmake . --build && ctest --output-on-failure
